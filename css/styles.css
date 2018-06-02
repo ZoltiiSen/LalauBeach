@@ -1,0 +1,275 @@
+body{
+	font-family: 'Roboto Slab', serif;
+	margin: 0px;
+}
+header{
+	background-image: url(https://steamcdn-a.akamaihd.net/steamcommunity/public/images/items/441870/72cd26e14b7fcba028206a06f10548c0d5174cfc.jpg);
+	height: 600px;
+	color: #fff;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: space-between; 
+	padding: 20px;
+}
+
+/* ---------------------------------------------------First block-------------------------------------------------------------------------- */
+/*Logo------------------------------------------------*/
+header .first_block{
+	display: flex;
+	justify-content: space-between;
+}
+header .first_block .logo{
+	width: 30%;
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+}
+header .first_block .logo img{
+	width: 50px; height: 50px;
+	border-radius: 50%;
+}
+header .first_block .logo h1{
+	font-size: 30px;
+	margin: 5px;
+}
+/*Menu------------------------------------------------*/
+header .first_block .menu{
+	width: 55%;
+}
+header .first_block .menu ul{
+	list-style: none;
+}
+header .first_block .menu ul li{
+	display: inline-flex;
+	margin: 10px;
+}
+header .first_block .menu ul li .menu_a{	
+	text-decoration: none;
+	color: #fff;
+}
+header .first_block .menu ul li .menu_a:hover{
+	text-decoration: underline;
+}
+header .first_block .menu ul li .FeedBack{
+	margin-left: 60px;
+	padding: 5px 20px;
+	font-weight: 700;
+	border: 1px solid #fff;
+	border-radius: 100px;
+}
+header .first_block .menu ul li .FeedBack:hover{
+	background-color: rgba(255, 255, 255, 0.1);
+	text-decoration:none;
+}
+/* ---------------------------------------------------Second block------------------------------------------------------------------------- */
+header .second_block{
+	display: flex;
+	justify-content: center;
+}
+header .second_block .block{
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+}
+header .second_block .block *{
+	text-align: center;
+}
+header .second_block .upper-description .line{
+	color: #570080;
+	font-weight: 700;
+}
+header .second_block h2{
+	font-size: 70px;
+	margin: 0;
+	text-transform: uppercase;
+}
+/* ---------------------------------------------------Third block-------------------------------------------------------------------------- */
+header .third_block{
+	font-size: 20px;
+	display: flex;
+	justify-content: center;
+}
+header .third_block a{
+	text-decoration: none;
+	display: flex;
+}
+header .third_block .switch:hover{
+	color: #ffcb21;
+}
+header .third_block a .switch{
+	width: 50px;
+	height: 50px;
+	margin-bottom: 20px;
+
+	border-radius: 50%;
+	background-color: #fafafa;
+	color: #333;
+	box-shadow: 0 0 10px 3px #ccc;
+
+	display: -webkit-inline-flex;
+	display: -moz-inline-flex;
+	display: -ms-inline-flex;
+	display: -o-inline-flex;
+	display: inline-flex;
+	justify-content: center;
+	-ms-align-items: center;
+	align-items: center;
+}
+/*------------------------------------------------Main content-------------------------------------------------------------------------------*/
+.main_content{
+	background-color: #f0f0f0;
+	color: #333;
+	width: 100%;
+
+	display: -webkit-inline-flex;
+	display: -moz-inline-flex;
+	display: -ms-inline-flex;
+	display: -o-inline-flex;
+	display: inline-flex;
+	flex-flow: row wrap;
+}
+/*---------------------------------------first-block-------------------------------------*/
+.main_content .first-block{
+	width: 100%;
+	background-color: #08023d;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	
+	flex-flow: column nowrap;
+}
+.main_content .first-block h3{
+	width: 100%;
+
+	font-size: 40px;
+	color: #ffcb21;
+	font-family: 'Roboto Slab', serif;
+
+	margin: 8px;
+	margin-left: 30px;
+}
+.main_content .first-block .priorities{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+
+	color: #fff;
+	width: 100%;
+	margin: 0;
+	justify-content: space-around;
+}
+.main_content .first-block .priorities .priority{
+	width: 15%;
+	height: 190px;
+	margin: 10px;
+
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	flex: 1;
+	flex-flow: row wrap;
+	justify-content: center;
+}
+.main_content .first-block .priorities .priority h4{
+	color: #ffcb21;
+	font-size: 30px;
+	margin: 10px 0;
+	text-transform: uppercase;
+}
+.main_content .first-block .priorities .priority h4 i{
+	font-size: 40px;
+}
+.main_content .first-block .priorities .priority p{
+	margin: 0;
+	font-size: 20px;
+	width: 70%;
+}
+/*----------------------------------------Second-block------------------------*/
+.main_content .second-block{
+	margin: 0;
+	background-color: #fefefe;
+	width: 100%;
+
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+
+	justify-content: space-around;
+}
+.main_content .second-block .imgg {
+	flex: 4;
+}
+.main_content .second-block .imgg img{
+	margin: 10px;
+}
+.main_content .second-block .text{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+
+	flex:6;
+	flex-flow: row wrap;
+}
+.main_content .second-block .text h3{
+	width: 100%;
+
+	text-transform: uppercase;
+	font-size: 50px;
+
+	margin-bottom: 0;
+}
+.main_content .second-block .text h3 span.gold{
+	color: #ffcb21;
+}
+.main_content .second-block .text .green_button{
+	margin: 20px;
+
+	width: 220px;height: 60px;
+	background-color: #00ff09;
+	border: 2px solid #fff;
+	outline: 1px solid #00ff09;
+
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+
+	justify-content: center;
+	-ms-align-items: center;
+	align-items: center;
+
+	color: #fefefe;
+	font-size: 20px;
+}
+.main_content .second-block .text .yellow_button{
+	margin: 20px;
+
+	width: 220px;height: 60px;
+	background-color: #e6ff00;
+	border: 2px solid #fff;
+	outline: 1px solid #e6ff00;
+
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+
+	justify-content: center;
+	-ms-align-items: center;
+	align-items: center;
+
+	color: #111;
+	font-size: 20px;
+}
